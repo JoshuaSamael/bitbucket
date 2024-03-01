@@ -111,13 +111,12 @@
 
     <TextView
         android:id="@+id/toy_txt"
-        android:layout_width="395dp"
-        android:layout_height="279dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:text="@string/description"
-        android:textSize="22sp"
+        android:textSize="18sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintEnd_toEndOf="@id/guideV2"
         app:layout_constraintStart_toEndOf="@+id/guideV1"
         app:layout_constraintTop_toBottomOf="@+id/guideH3" />
 
